@@ -1,0 +1,48 @@
+.side-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    background-color: white;
+    width: 90px;
+    padding-left: 4px;
+    z-index: 200;
+   padding-top: 5px;
+}
+
+.yt-icons{
+    height: 90px;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.yt-icons:hover {
+    background-color: rgb(233, 230, 230);
+
+}
+.home-icon{
+    height: 25px;
+}
+.explore-icon{
+    height: 25px;
+}
+.subscriptions-icon{
+    height: 25px;
+}
+.library-icon{
+    height: 25px;
+}
+.history-icon{
+    height: 25px;
+}
+.music-icon{
+    height: 25px;
+}
+.yt-icons div {
+    font-family: sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+}
